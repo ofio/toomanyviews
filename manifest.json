@@ -36,9 +36,6 @@
       ]
     }
   ],
-  "background": {
-    "service_worker": "service_worker.js"
-  },
   "action": {
     "default_title": "De-Mainstream",
     "default_popup": "popup/popup.html"
