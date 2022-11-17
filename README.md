@@ -1,20 +1,30 @@
-# De-Mainstream YouTube™ - Extension
+# TooManyViews YouTube™ - Extension
 
 A browser extension to remove Mainstream Media results from YouTube™ searches. Fixes the YouTube™ algorithm to remove mainstream media results from searches.
 
-Download for Brave, Dissenter, Chrome-based browsers on the Chrome Web Store here: https://chrome.google.com/webstore/detail/de-mainstream/dkcdmdpcapjlaoioeenamjdanpeehjan
+Download for Brave, Dissenter, Chrome-based browsers on the Chrome Web Store here: coming soon
 
-Download for Firefox browsers on the Firefox Add-on Store here: https://addons.mozilla.org/en-US/firefox/addon/de-mainstream-youtube
+Download for Firefox browsers on the Firefox Add-on Store here: coming soon
+
+## Installation
+
+First, install all of the dev dependencies using:
+
+```
+$ npm install
+```
 
 ## Set up & Run it
 
 First, install all of the dev dependencies using:
+
 ```
 $ npm install
 ```
 
 Then, to build the extension from the files within `lib`, you will need to compile them to the `dist` directory.
 Run the following command:
+
 ```
 $ npm run dist
 ```
@@ -22,12 +32,6 @@ $ npm run dist
 ## Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via an issue before making a change. To request a new YouTube™ channel to block, please submit a new issue.
-
-## Say Hi
-
-Find me on Gab: [@markmiscavage](https://gab.com/markmiscavage).
-
-Tweet at me: [@markmiscavage](https://twitter.com/markmiscavage).
 
 ## License
 
