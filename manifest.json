@@ -12,9 +12,6 @@
     "extension_pages": "script-src 'self'; object-src 'self'"
   },
   "icons": {
-    "16": "img/icons/icon@1x.png",
-    "32": "img/icons/icon@2x.png",
-    "48": "img/icons/icon@3x.png",
     "128": "img/icons/icon@8x.png"
   },
   "options_page": "popup/popup.html",
