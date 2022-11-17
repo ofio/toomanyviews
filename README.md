@@ -7,7 +7,7 @@ A browser extension to remove Mainstream Media results from YouTube™ searches.
 First, install all of the dev dependencies using:
 
 ```
-$ download zip: https://github.com/ofio/toomanyviews/releases/tag/v1
+$ download dist.zip: https://github.com/ofio/toomanyviews/releases/tag/v1
 $ unpack zip
 $ enable developer mode in your extensions settings
 $ click "Load unpacked" and select the dist folder
