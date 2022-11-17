@@ -37,7 +37,6 @@
     }
   ],
   "background": {
-    "persistent": false,
     "service_worker": "service_worker.js"
   },
   "action": {

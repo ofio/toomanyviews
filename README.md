@@ -1,17 +1,16 @@
-# TooManyViews YouTube™ - Extension
+# TooManyViews YouTube™ - Chrome/Edge Extension
 
 A browser extension to remove Mainstream Media results from YouTube™ searches. Fixes the YouTube™ algorithm to remove mainstream media results from searches.
-
-Download for Brave, Dissenter, Chrome-based browsers on the Chrome Web Store here: coming soon
-
-Download for Firefox browsers on the Firefox Add-on Store here: coming soon
 
 ## Installation
 
 First, install all of the dev dependencies using:
 
 ```
-$ npm install
+$ download zip: https://github.com/ofio/toomanyviews/releases/tag/v1
+$ unpack zip
+$ enable developer mode in your extensions settings
+$ click "Load unpacked" and select the dist folder
 ```
 
 ## Set up & Run it
