@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./popup.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <h1 class="container__header">Select View Count Range</h1>
+
+    <div class="controls">
+
+      <div style="width: 100%;min-width: 250px;">
+      <p>Drag the slider to set min views</p>
+
+      <div class="slidecontainer">
+        <input type="range" min="0" max="998" value="100" class="slider" id="myRange1">
+  <p><span id="demo1"></span>K views</p>
+      </div>
+    </div>
+
+    <div style="width: 100%;min-width: 250px;padding-top: 12px;">
+      <p>Drag the slider to set max views</p>
+
+<div class="slidecontainer">
+  <input type="range" min="1" max="999" value="100" class="slider" id="myRange2">
+  <p><span id="demo2"></span>K views</p>
+</div>
+</div>
+
+ 
+    <button class="savebutton" id="save">Save</button>
+    <div id="status"></div>
+  </div>
+</div>
+
+  <script>
+
+    </script>
+  <script src="./popup.js"></script>
+</body>
+
+</html>

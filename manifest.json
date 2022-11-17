@@ -1,0 +1,50 @@
+{
+  "name": "Too Many Views",
+  "short_name": "2manyviews",
+  "description": "Fixes the YouTube\u2122 algorithm to remove mainstream media results from searches.",
+  "version": "2.0.5",
+  "version_name": "2.0.5",
+  "manifest_version": 3,
+  "homepage_url": "https://www.youtube.com",
+  "incognito": "spanning",
+  "offline_enabled": true,
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "icons": {
+    "16": "img/icons/icon@1x.png",
+    "32": "img/icons/icon@2x.png",
+    "48": "img/icons/icon@3x.png",
+    "128": "img/icons/icon@8x.png"
+  },
+  "options_page": "popup/popup.html",
+  "options_ui": {
+    "page": "popup/popup.html",
+    "open_in_tab": false
+  },
+  "permissions": [
+    "contextMenus",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.youtube.com/*"
+      ],
+      "js": [
+        "youtube/youtube.js"
+      ]
+    }
+  ],
+  "background": {
+    "persistent": false,
+    "service_worker": "service_worker.js"
+  },
+  "action": {
+    "default_title": "De-Mainstream",
+    "default_popup": "popup/popup.html"
+  },
+  "host_permissions": [
+    "https://*.youtube.com/"
+  ]
+}

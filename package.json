@@ -1,0 +1,32 @@
+{
+  "name": "too-many-views-youtube-extension",
+  "version": "2.0.5",
+  "description": "A browser extension to remove high view count results from YouTube™ searches.",
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://github.com/ofio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ofio"
+  },
+  "bugs": {
+    "url": "https://github.com/ofio"
+  },
+  "scripts": {
+    "clean": "gulp clean",
+    "dist": "gulp dist"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "postcss": "^8.4.19"
+  }
+}
